@@ -1,7 +1,7 @@
-import { globalStyles } from '@/styles/global-styles';
-import {Pressable, Text } from 'react-native'
-import React from 'react'
 import { Colors } from '@/constants/theme';
+import { globalStyles } from '@/styles/global-styles';
+import React from 'react';
+import { Pressable, Text } from 'react-native';
 
 interface Props{
     label: string;
